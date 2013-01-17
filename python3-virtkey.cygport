@@ -1,0 +1,12 @@
+inherit python3-distutils
+
+NAME="python3-virtkey"
+VERSION=0.63.0
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Py3K virtual keyboard extension"
+DESCRIPTION="Python extension for emulating keypresses and getting layout
+information from the X server."
+HOMEPAGE="https://launchpad.net/virtkey"
+SRC_URI="http://launchpad.net/virtkey/${PV[1]}.${PV[2]}/${PV}/+download/virtkey-${PV}.tar.gz"
+PATCH_URI="0.60.0-cygwin.patch"

@@ -1,0 +1,5 @@
+--- origsrc/python-virtkey-0.60.0/src/python-virtkey.c	2010-08-13 09:04:00.000000000 -0500
++++ src/python-virtkey-0.60.0/src/python-virtkey.c	2011-05-24 19:59:36.120705800 -0500
+@@ -1009,1 +1009,1 @@ static PyObject * virtkey_Repr(PyObject
+-    PyVarObject_HEAD_INIT(&PyType_Type, 0)
++    PyVarObject_HEAD_INIT(NULL, 0)
